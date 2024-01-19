@@ -1,0 +1,47 @@
+body {
+    background-image: url("photography.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: black;
+}
+
+button {
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: burlywood;
+}
+
+#save-btn {
+    background: aquamarine;
+}
